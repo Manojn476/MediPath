@@ -1,0 +1,18 @@
+[
+  {
+    "scheme_name": "Ayushman Bharat PM-JAY",
+    "min_age": null,
+    "max_age": null,
+    "income_ceiling": 300000,
+    "requires_residency": "India",
+    "source": "https://pmjay.gov.in/"
+  },
+  {
+    "scheme_name": "State Senior Health Support",
+    "min_age": 60,
+    "max_age": null,
+    "income_ceiling": 500000,
+    "requires_residency": "Karnataka",
+    "source": "https://sevasindhu.karnataka.gov.in/"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "region": "Bengaluru",
+    "facility_name": "BBMP Community Health Centre",
+    "facility_type": "Clinic",
+    "address": "Jayanagar, Bengaluru"
+  },
+  {
+    "region": "Bengaluru",
+    "facility_name": "CityCare Pharmacy",
+    "facility_type": "Pharmacy",
+    "address": "Indiranagar, Bengaluru"
+  },
+  {
+    "region": "Mysuru",
+    "facility_name": "Mysuru District Hospital",
+    "facility_type": "Hospital",
+    "address": "Sayyaji Rao Rd, Mysuru"
+  }
+]
