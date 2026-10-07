@@ -1,0 +1,20 @@
+{
+  "idli": {
+    "calories_per_serving": 58,
+    "protein_g": 2,
+    "carbs_g": 12,
+    "fat_g": 0.4
+  },
+  "salad": {
+    "calories_per_serving": 95,
+    "protein_g": 3,
+    "carbs_g": 12,
+    "fat_g": 4
+  },
+  "dal rice": {
+    "calories_per_serving": 320,
+    "protein_g": 11,
+    "carbs_g": 58,
+    "fat_g": 5
+  }
+}

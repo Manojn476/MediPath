@@ -1,0 +1,14 @@
+[
+  {
+    "keywords": ["handwash", "handwashing", "hygiene", "infection"],
+    "guidance": "Wash hands with soap and clean water regularly, especially before eating and after using the restroom.",
+    "source_name": "WHO Hand Hygiene",
+    "source_url": "https://www.who.int/teams/integrated-health-services/infection-prevention-control/hand-hygiene"
+  },
+  {
+    "keywords": ["blood pressure", "hypertension", "salt"],
+    "guidance": "Reducing sodium intake and maintaining physical activity can help lower blood pressure risk.",
+    "source_name": "CDC High Blood Pressure",
+    "source_url": "https://www.cdc.gov/high-blood-pressure/"
+  }
+]
