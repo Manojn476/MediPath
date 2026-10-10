@@ -14,6 +14,12 @@ class GraphState(TypedDict):
     audio_path: Optional[str]
     intent: Optional[str]
 
+    # Followup flags: set True by reminder.py, journal.py, or fitness.py
+    # to trigger selective re-runs after care_summary_node.
+    new_adherence_log: bool
+    new_activity_log: bool
+    new_journal_entry: bool
+
 
 def transcribe_node(state: GraphState) -> GraphState:
     """
@@ -56,7 +62,11 @@ def intake_node(state: GraphState) -> GraphState:
         "input_text": state["input_text"],
         "output_text": state.get("output_text", ""),
         "audio_path": state.get("audio_path"),
-        "intent": intent
+        "intent": intent,
+        # Initialize followup flags if not already set by caller
+        "new_adherence_log": state.get("new_adherence_log", False),
+        "new_activity_log": state.get("new_activity_log", False),
+        "new_journal_entry": state.get("new_journal_entry", False),
     }
 
 
