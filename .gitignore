@@ -1,7 +1,30 @@
-.venv/
+# Environment
+.env
+venv/
+env/
+
+# Python
 __pycache__/
 *.py[cod]
-.env
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
+*$py.class
+*.so
+.Python
+
+# Data and models
+data/
+models/
+*.pkl
+*.h5
+*.pth
+*.onnx
+*.bin
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
